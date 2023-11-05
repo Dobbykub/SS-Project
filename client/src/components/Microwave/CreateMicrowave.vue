@@ -46,17 +46,17 @@ export default {
       async createMicrowave() {
   try {
     const response = await MicrowaveService.post(this.microwave);
-    // ตรวจสอบข้อมูลที่คืนกลับจากเซิร์ฟเวอร์
+    
     console.log('รายละเอียดการสร้างไมโครเวฟ:', response.data);
-    // ทำการเปลี่ยนหน้าไปยังหน้าสมุดโทรศัพท์หลังจากสร้างไมโครเวฟสำเร็จ
+    
     this.$router.push({
       name: 'microwaves',
     });
   } catch (error) {
     console.error('เกิดข้อผิดพลาดในการสร้างไมโครเวฟ:', error);
-    // แสดงข้อความข้อผิดพลาดที่ได้จากเซิร์ฟเวอร์ (ถ้ามี)
+    
     if (error.response && error.response.data) {
-      console.error('ข้อความข้อผิดพลาดจากเซิร์ฟเวอร์:', error.response.data);
+      console.error('ข้อความข้อผิดพลาด:', error.response.data);
     }
   }
 }

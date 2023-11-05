@@ -54,7 +54,7 @@ export default {
 <style scoped>
 .edit-button {
   background-color: #007bff;
-  /* สีน้ำเงิน */
+  
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -63,7 +63,7 @@ export default {
 }
 .home-button {
   background-color: #674397;
-  /* สีน้ำเงิน */
+  
   color: #fff;
   border: none;
   padding: 5px 10px;

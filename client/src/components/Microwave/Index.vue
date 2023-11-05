@@ -68,9 +68,9 @@ export default {
 <style scoped>
 .view-button {
   background-color: #28a745;
-  /* สีเขียว */
+  
   color: #fff;
-  /* สีขาว */
+  
   border: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -79,7 +79,7 @@ export default {
 
 .edit-button {
   background-color: #007bff;
-  /* สีน้ำเงิน */
+ 
   color: #fff;
   border: none;
   padding: 5px 10px;
@@ -89,7 +89,7 @@ export default {
 
 .delete-button {
   background-color: #dc3545;
-  /* สีแดง */
+  
   color: #fff;
   border: none;
   padding: 5px 10px;
